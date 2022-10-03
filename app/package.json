@@ -1,0 +1,16 @@
+{
+    "name": "honey-budget",
+    "version": "0.1.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "jest",
+        "dev": "nodemon src/index.js"
+    },
+    "dependencies": {
+
+    },
+    "devDependencies": {
+        
+    }
+}
