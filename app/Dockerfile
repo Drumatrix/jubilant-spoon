@@ -1,4 +1,4 @@
-FROM node:alpline
+FROM node:alpine
 WORKDIR /app
 COPY package.json yarn.lock ./
 RUN yarn install --production

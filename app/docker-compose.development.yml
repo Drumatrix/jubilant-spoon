@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  app:
+    image: node:alpine
+    command: sh -c "yarn install && yarn run dev"
+    ports:
+      - 3000:3000
+    working_dir: /app
+    volumes:
+      - ./:/app
+  db:
+    image: mongo
+    ports:
+      - 27017:27017
